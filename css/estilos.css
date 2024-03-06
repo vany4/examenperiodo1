@@ -1,0 +1,83 @@
+
+/* No cambiar los estilos que aquí te dejo, solo debes complementar según las instrucciones
+del examen */
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Gloock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Gloock&family=Mynerve&display=swap');
+
+
+*{margin: 0px; 
+padding: 0px;
+box-sizing: border-box;}
+
+.contenedor{margin: auto;
+padding: 80px;
+background-color: lightblue;}
+
+.contenedor h1{padding-top: 30px;
+padding-bottom: 20px;}
+.contenedor h2{padding-top: 30px;
+    padding-bottom: 20px;}
+
+.background{
+    background-image:url(../img/imagen1.jpg);
+   height: 400px;
+width: 100%}
+
+ .background h2{ color: orangered;
+    height: 400px;
+    margin-left: 50px;
+    line-height: 400px;
+    font-size: 30px;
+    font-family: Gloock,serif;}
+    
+.contenido h2{ color: purple;
+text-align: center;
+padding-top: 30px;
+padding-left: 40px;
+padding-right: 40px;}
+
+.contenido p{
+    width: 100%;
+    text-align: justify;
+    font-size: 40px;}
+
+.background2{
+background-image: url(../img/imagen2.jpeg);
+height: 400px;
+color: aliceblue;
+text-align: center;
+line-height: 400px;}
+
+.contenido2 ol{
+text-align: left;
+font-size: 25px;
+padding: 40px;
+}
+
+.background3{
+    background-image: url(../img/imagen3.jpg);
+    height: 400px;
+    color: white;
+    line-height: 400px;
+    text-align: center;
+}
+
+.contenido3 ul{
+text-align: left;
+font-size: 25px;
+padding: 40px;
+}
+    
+.datos{
+    background-color: darkviolet;
+    border-color: cornsilk;
+    border-radius: 10px;
+    font-family: Mynerve, cursive;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
